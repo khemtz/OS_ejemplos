@@ -1,0 +1,54 @@
+***********************************************************
+Feb 23 00:00:38 laboratorio systemd[1]: logrotate.service: Succeeded.
+Feb 23 00:00:38 laboratorio systemd[1]: Finished Rotate log files.
+Feb 23 00:00:38 laboratorio systemd[1]: man-db.service: Succeeded.
+Feb 23 00:00:38 laboratorio systemd[1]: Finished Daily man-db regeneration.
+Feb 23 03:10:01 laboratorio CRON[38478]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+Feb 23 03:57:01 laboratorio systemd[1]: Reloading.
+Feb 23 03:57:02 laboratorio systemd[1]: Reloading.
+Feb 23 03:57:02 laboratorio systemd[1]: Mounting Mount unit for lxd, revision 22511...
+Feb 23 03:57:02 laboratorio systemd[1]: Starting Message of the Day...
+Feb 23 03:57:02 laboratorio systemd[1]: Mounted Mount unit for lxd, revision 22511.
+Feb 23 03:57:03 laboratorio systemd[1]: snap.lxd.daemon.unix.socket: Succeeded.
+Feb 23 03:57:03 laboratorio systemd[1]: Closed Socket unix for snap application lxd.daemon.
+Feb 23 03:57:04 laboratorio systemd[1]: snap.lxd.user-daemon.unix.socket: Succeeded.
+Feb 23 03:57:04 laboratorio systemd[1]: Closed Socket unix for snap application lxd.user-daemon.
+Feb 23 03:57:04 laboratorio systemd[1]: Reloading.
+Feb 23 03:57:07 laboratorio systemd[1]: message repeated 5 times: [ Reloading.]
+Feb 23 03:57:08 laboratorio systemd[1]: motd-news.service: Succeeded.
+Feb 23 03:57:08 laboratorio systemd[1]: Finished Message of the Day.
+Feb 23 03:57:10 laboratorio systemd[1]: Reloading.
+Feb 23 03:57:12 laboratorio systemd[1]: message repeated 2 times: [ Reloading.]
+Feb 23 03:57:12 laboratorio systemd[1]: Listening on Socket unix for snap application lxd.user-daemon.
+Feb 23 03:57:12 laboratorio systemd[1]: Reloading.
+Feb 23 03:57:13 laboratorio systemd[1]: Listening on Socket unix for snap application lxd.daemon.
+Feb 23 03:57:13 laboratorio systemd[1]: Starting Service for snap application lxd.activate...
+Feb 23 03:57:13 laboratorio systemd[1]: snap.lxd.activate.service: Succeeded.
+Feb 23 03:57:13 laboratorio systemd[1]: Finished Service for snap application lxd.activate.
+Feb 23 03:57:13 laboratorio systemd[1832]: snap-lxd-22439.mount: Succeeded.
+Feb 23 03:57:14 laboratorio systemd[1]: snap-lxd-22439.mount: Succeeded.
+Feb 23 03:57:14 laboratorio systemd[1]: Reloading.
+Feb 23 03:57:14 laboratorio systemd[1]: Reloading.
+Feb 23 03:57:16 laboratorio systemd[1]: Started snap.lxd.hook.configure.d417dee7-f7c0-4f84-ab7b-0aa6d500d977.scope.
+Feb 23 03:57:16 laboratorio systemd[1]: snap.lxd.hook.configure.d417dee7-f7c0-4f84-ab7b-0aa6d500d977.scope: Succeeded.
+Feb 23 06:49:21 laboratorio systemd[1]: Starting Daily apt upgrade and clean activities...
+Feb 23 06:49:28 laboratorio dbus-daemon[566]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.142' (uid=0 pid=39531 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Feb 23 06:49:28 laboratorio systemd[1]: Starting PackageKit Daemon...
+Feb 23 06:49:28 laboratorio systemd[1]: Started PackageKit Daemon.
+Feb 23 06:49:37 laboratorio systemd[1]: apt-daily-upgrade.service: Succeeded.
+Feb 23 06:49:37 laboratorio systemd[1]: Finished Daily apt upgrade and clean activities.
+Feb 23 06:54:43 laboratorio systemd[1]: packagekit.service: Succeeded.
+Feb 23 10:42:59 laboratorio systemd[1]: Starting Daily apt download activities...
+Feb 23 10:43:04 laboratorio dbus-daemon[566]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.145' (uid=0 pid=40129 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Feb 23 10:43:04 laboratorio systemd[1]: Starting PackageKit Daemon...
+Feb 23 10:43:04 laboratorio systemd[1]: Started PackageKit Daemon.
+Feb 23 10:43:25 laboratorio systemd[1]: apt-daily.service: Succeeded.
+Feb 23 10:43:25 laboratorio systemd[1]: Finished Daily apt download activities.
+Feb 23 10:48:08 laboratorio systemd[1]: packagekit.service: Succeeded.
+***********************************************************
+procesos de systemd
+systemd+     503       1  0 Feb16 ?        00:00:03 /lib/systemd/systemd-timesyncd
+systemd+     546       1  0 Feb16 ?        00:00:10 /lib/systemd/systemd-networkd
+systemd+     548       1  0 Feb16 ?        00:00:03 /lib/systemd/systemd-resolved
+message+     566       1  0 Feb16 ?        00:00:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+usuario    40582   40577  0 14:19 pts/0    00:00:00 grep -E message|^systemd
