@@ -72,10 +72,11 @@ Feb 25 21:16:58 laboratorio systemd[1]: Starting Firmware update daemon...
 Feb 25 21:16:59 laboratorio systemd[1]: Started Firmware update daemon.
 Feb 25 21:16:59 laboratorio systemd[1]: fwupd-refresh.service: Succeeded.
 Feb 25 21:16:59 laboratorio systemd[1]: Finished Refresh fwupd metadata and update motd.
+Feb 25 21:26:03 laboratorio systemd[1]: Started Session 256 of user usuario.
 ***********************************************************
 procesos de systemd
 systemd+     503       1  0 Feb16 ?        00:00:04 /lib/systemd/systemd-timesyncd
 systemd+     546       1  0 Feb16 ?        00:00:14 /lib/systemd/systemd-networkd
 systemd+     548       1  0 Feb16 ?        00:00:04 /lib/systemd/systemd-resolved
 message+     566       1  0 Feb16 ?        00:00:05 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
-usuario    46365   46360  0 21:18 pts/0    00:00:00 grep -E message|^systemd
+usuario    46995   46988  0 21:50 ?        00:00:00 grep -E message|^systemd
