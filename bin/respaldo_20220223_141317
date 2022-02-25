@@ -1,9 +1,0 @@
-root         306       1  0 Feb16 ?        00:00:02 /lib/systemd/systemd-journald
-root         339       1  0 Feb16 ?        00:00:04 /lib/systemd/systemd-udevd
-systemd+     503       1  0 Feb16 ?        00:00:03 /lib/systemd/systemd-timesyncd
-systemd+     546       1  0 Feb16 ?        00:00:10 /lib/systemd/systemd-networkd
-systemd+     548       1  0 Feb16 ?        00:00:03 /lib/systemd/systemd-resolved
-message+     566       1  0 Feb16 ?        00:00:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
-root         577       1  0 Feb16 ?        00:00:02 /lib/systemd/systemd-logind
-usuario     1832       1  0 Feb16 ?        00:00:00 /lib/systemd/systemd --user
-usuario    40519   40514  0 14:13 pts/0    00:00:00 grep -E message|systemd
